@@ -1,0 +1,21 @@
+.header,.footer{
+    width:100%;
+}
+.header{
+    height:100px;
+}
+header{
+    line-height:0.5;
+}
+section{
+    background-color:#000000;
+}
+.footer{
+  height:300px;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: #000000;
+}

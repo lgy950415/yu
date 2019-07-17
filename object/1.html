@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js\jquery.min.js"></script>
+    <script src="js\popper.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\bootnavbar.js"></script>
+    <script>
+      $(function () {
+          $('#first_navbar').bootnavbar();
+      })
+  </script>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\animate.css">
+    <link rel="stylesheet" href="css\bootnavbar.css">
+    <style>
+    .navbar{
+        height:300px;
+    }
+    </style>
+</head>
+<body>
+  <div class="row">
+      <div class="col-3">
+
+      </div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light col-6" id="first_navbar">
+            <ul class="navbar-nav j">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">AAA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BBB</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        CCC
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">aaa</a></li>
+                        <li><a class="dropdown-item" href="#">bbb</a></li>
+                        <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    ccc
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <li><a class="dropdown-item" href="#">111</a></li>
+                                    <li><a class="dropdown-item" href="#">222</a></li>
+                                    <li class="nav-item dropdown">
+                                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                333
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                <li><a class="dropdown-item" href="#">qqq</a></li>
+                                                <li><a class="dropdown-item" href="#">www</a></li>
+                                                <li><a class="dropdown-item" href="#">eee</a></li>                        
+                                            </ul>
+                                        </li>          
+                                </ul>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+    </nav>
+    <div class="col-3"></div>
+	</div>
+</body>
+</html>
