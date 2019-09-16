@@ -8,6 +8,7 @@
         }, function() {
             $(this).removeClass('show');
             $(this).find('.dropdown-menu').first().removeClass('show');
+            $(this).removeClass('show');
         });
     };    
 })(jQuery);
